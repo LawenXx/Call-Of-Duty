@@ -1,4 +1,4 @@
-enum XModel {
+enum XModel {<br />
 	mlvnt_2020_red_house_roof_shell = 0x82ED5424,<br />
 	t6_wpn_smg_chicom_world = 0x82EB1A2C,<br />
 	t6_attach_mag_sig556_world = 0x82EB5A08,<br />
