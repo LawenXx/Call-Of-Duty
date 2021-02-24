@@ -1,0 +1,5 @@
+﻿  AidenIsHot.cpp
+AidenIsHot.cpp(46): warning C4826: Conversion from 'void (__cdecl *)(int,XNADDR *)' to 'uint64_t' is sign-extended. This may cause unexpected runtime behavior.
+AidenIsHot.cpp(50): warning C4826: Conversion from 'void (__cdecl *)(int,XNADDR *)' to 'uint64_t' is sign-extended. This may cause unexpected runtime behavior.
+  Generating code
+  Finished generating code
