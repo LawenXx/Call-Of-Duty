@@ -1,0 +1,11 @@
+﻿  BO2.cpp
+BO2.cpp(6): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+BO2.cpp(6): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+  DllMain.cpp
+DllMain.cpp(42): warning C4826: Conversion from 'void (__cdecl *)(int,DWORD)' to 'uint64_t' is sign-extended. This may cause unexpected runtime behavior.
+  Functions.cpp
+  utilites.cpp
+utilites.cpp(34): warning C4172: returning address of local variable or temporary
+utilites.cpp(35): warning C4154: deletion of an array expression; conversion to pointer supplied
+  Generating code
+  Finished generating code
