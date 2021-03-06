@@ -44,5 +44,17 @@ struct Centity
 	char pad_02AA[206]; //0x02AA
 };
 
+struct CGArray
+{//Add rest of struct when needed
+	int32_t ClientNum; //0x0000
+	int32_t LocalClient; //0x0004
+	char pad_0008[16]; //0x0008
+	int32_t RenderScreen; //0x0018
+	int32_t LatestSnapshotNum; //0x001C
+	int32_t LatestSnapshotTime; //0x0020
+	char pad_0024[28]; //0x0024
+};
+
+extern CGArray* cgsArray;
 extern Centity* cg_entitiesArray;
 extern UIContext* CGDC;
