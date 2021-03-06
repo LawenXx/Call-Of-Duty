@@ -6,6 +6,7 @@ R_AddCmdDrawText_t R_AddCmdDrawText;
 R_RegisterFont_t R_RegisterFont;
 UIContext* CGDC;
 Centity* cg_entitiesArray;
+CGArray* cgsArray;
 
 void FillAddresses()
 {
@@ -19,5 +20,6 @@ void FillStructs()
 {
 	CGDC = (UIContext*)0x83BA29F0;
 	cg_entitiesArray = *(Centity**)0x82BBC554;
+	cgsArray = *(CGArray**)0x82BBAE68;
 }
 
